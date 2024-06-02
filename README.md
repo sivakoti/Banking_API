@@ -62,7 +62,7 @@ Before you begin, ensure you have the following installed:
     or
    
     ```sh
-    mvn clean install
+    mvn clean package
     ```
 
 ## Usage
@@ -73,6 +73,5 @@ To run the application locally, use the following command:
 
 ```sh
 mvn spring-boot:run
-
-
+```
 or in VS Code try to generate and use launch.json to run and debug
